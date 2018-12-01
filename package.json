@@ -1,0 +1,19 @@
+{
+  "name": "cypress-cucumber-webpack-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^10.12.11"
+  },
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.0.2",
+    "cypress": "^3.1.2",
+    "cypress-cucumber-preprocessor": "^1.6.0",
+    "cypress-testing-library": "^2.3.3",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1"
+  }
+}
