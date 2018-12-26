@@ -1,12 +1,15 @@
+/// <reference types="Cypress" />
+
 import myAssertion from "./myAssertion";
 
 const {
-  given,
-  then
-} = require("cypress-cucumber-preprocessor/resolveStepDefinition");
+  Given,
+  Then
+} = require("cypress-cucumber-preprocessor/steps");
 
-given(`webpack is configured`, () => {});
+Given(`webpack is configured`, () => {});
 
-then(`this test should work just fine!`, () => {
+Then(`this test should work just fine!`, () => {
   myAssertion();
+  cy.visit('https://google.com')
 });
