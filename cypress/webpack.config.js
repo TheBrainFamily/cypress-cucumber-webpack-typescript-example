@@ -21,6 +21,14 @@ module.exports = {
             loader: "cypress-cucumber-preprocessor/loader"
           }
         ]
+      },
+      {
+        test: /\.features$/,
+        use: [
+          {
+            loader: "cypress-cucumber-preprocessor/lib/featuresLoader"
+          }
+        ]
       }
     ]
   }
