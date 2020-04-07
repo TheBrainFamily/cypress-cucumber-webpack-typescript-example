@@ -10,11 +10,14 @@
     "test:all": "cypress run --spec \"**/*.features\""
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "^4.0.2",
-    "cypress": "^3.4.1",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@cypress/webpack-preprocessor": "^5.0.0",
+    "babel-loader": "^8.1.0",
+    "cypress": "^4.3.0",
     "cypress-cucumber-preprocessor": "latest",
-    "ts-loader": "^5.3.1",
-    "typescript": "^3.2.1",
-    "webpack": "^4.28.2"
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.1"
   }
 }
